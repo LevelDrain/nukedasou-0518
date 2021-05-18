@@ -1438,6 +1438,37 @@ div#lightbox {
     margin-top: 1.25rem;
 }
 
+@media screen and (min-width: 768px) {
+    .p-nukenews__wrap {
+        width: 710px;
+        height: 390px;
+        background: url(../images/common/image112.png) no-repeat;
+        background-size: contain;
+        padding: 1.5rem 0 0;
+    }
+
+    .p-nukenews__inner {
+        display: flex;
+        width: 650px;
+        padding: 0;
+    }
+
+    .p-nukenews__box {
+        padding: 0 2.3rem;
+    }
+
+    .p-nukenews__box img {
+        width: 230px;
+    }
+
+    .p-newsItem__txt {
+        line-height: 1.75;
+        text-align: left;
+        font-size: .9rem;
+        margin-top: 1.5rem;
+    }
+}
+
 @media screen and (min-width: 1080px) {
     .p-nukenews {
         margin-top: 12.5rem;
@@ -1447,6 +1478,7 @@ div#lightbox {
         width: 1040px;
         height: 545px;
         background: url(../images/common/image112.png) no-repeat;
+        background-size: contain;
         padding: 4rem 0 0;
     }
 
