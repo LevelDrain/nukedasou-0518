@@ -163,10 +163,16 @@ function h($s)
                     <div class="p-nukenews__box">
                         <img src="images/banner/<?= h($record[0][1]) ?>" alt="">
                         <p class="p-newsItem__txt"><?= nl2br(h($record[0][2])) ?></p>
+                        <p class="p-nukenews__btn">
+                            <a target="_blank" class="c-button sp_br" href="/" rel="noopener noreferrer">ぬけだ荘のnoteを読む</a>
+                        </p>
                     </div>
                     <div class="p-nukenews__box pc_br">
                         <img src="images/banner/<?= h($record[1][1]) ?>" alt="">
                         <p class="p-newsItem__txt"><?= nl2br(h($record[1][2])) ?></p>
+                        <p class="p-nukenews__btn">
+                            <a target="_blank" class="c-button" href="/" rel="noopener noreferrer">ぬけだ荘のnoteを読む</a>
+                        </p>
                     </div>
                 </div>
             </section>

@@ -1415,16 +1415,16 @@ div#lightbox {
     width: 335px;
     height: 395px;
     margin: 2rem auto 0;
-    background: url(../images/common/image112_sp.png) no-repeat;
+    background: url(../images/common/nukenews_bg.png) no-repeat center;
     background-size: contain;
-    padding: 2rem 0 0;
+    padding: 1.5rem 0 0;
 }
 
 .p-nukenews__inner {
     width: 280px;
     margin: 0 auto;
     overflow: auto;
-    padding: 0 1.25rem;
+    padding: 0 2.5rem;
 }
 
 .p-nukenews__box {
@@ -1438,11 +1438,20 @@ div#lightbox {
     margin-top: 1.25rem;
 }
 
+.p-nukenews__btn {
+    margin: 1.25rem auto 0;
+}
+
+.p-nukenews__btn .c-button {
+    width: 180px;
+    font-size: 80%;
+}
+
 @media screen and (min-width: 768px) {
     .p-nukenews__wrap {
         width: 710px;
         height: 390px;
-        background: url(../images/common/image112.png) no-repeat;
+        background: url(../images/common/nukenews_bg_pc.png) no-repeat center;
         background-size: contain;
         padding: 1.5rem 0 0;
     }
@@ -1454,7 +1463,9 @@ div#lightbox {
     }
 
     .p-nukenews__box {
-        padding: 0 2.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .p-nukenews__box img {
@@ -1462,10 +1473,20 @@ div#lightbox {
     }
 
     .p-newsItem__txt {
+        width: 250px;
         line-height: 1.75;
         text-align: left;
         font-size: .9rem;
         margin-top: 1.5rem;
+    }
+
+    .p-nukenews__btn {
+        margin: 1.5rem auto 0;
+    }
+
+    .p-nukenews__btn .c-button {
+        width: 240px;
+        font-size: 100%;
     }
 }
 
@@ -1477,9 +1498,9 @@ div#lightbox {
     .p-nukenews__wrap {
         width: 1040px;
         height: 545px;
-        background: url(../images/common/image112.png) no-repeat;
+        background: url(../images/common/nukenews_bg_pc.png) no-repeat center;
         background-size: contain;
-        padding: 4rem 0 0;
+        padding: 1.5rem 0 0;
     }
 
     .p-nukenews__inner {
@@ -1489,7 +1510,9 @@ div#lightbox {
     }
 
     .p-nukenews__box {
-        padding: 0 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .p-nukenews__box img {
@@ -1497,9 +1520,19 @@ div#lightbox {
     }
 
     .p-newsItem__txt {
+        width: 280px;
         line-height: 1.75;
         text-align: left;
         font-size: 1rem;
         margin-top: 1.5rem;
+    }
+
+    .p-nukenews__btn {
+        margin: 1.5rem auto 0;
+    }
+
+    .p-nukenews__btn .c-button {
+        width: 240px;
+        font-size: 100%;
     }
 }
